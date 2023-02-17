@@ -14,7 +14,7 @@ https://batfish.readthedocs.io/en/latest/
 
 ## Script Steps
 - Load the Nornir vars yaml file containing global variables for all devices
-- Initialize batfish to retreive the backups and create a dataframe for data analysis
+- Initialize batfish to analyze the backups and create a dataframe for data analysis
 - Create a device list using the dataframe
 - Use pytest to run the NTP test to every device. Pytest is checking if the devices configured NTP servers match the golden NTP servers provided by the yaml file.
 
